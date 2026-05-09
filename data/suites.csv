@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Opens Google and validates that the page title contains Google.","658","testCase1","Surefire suite","Sat May 09 06:14:53 UTC 2026","passed","Sat May 09 06:14:54 UTC 2026","com.githubactions.Demo","Surefire test","com.githubactions.Demo","testCase1"
+"Opens Stack Overflow and validates that a non-empty title is returned.","319","testCase3","Surefire suite","Sat May 09 06:14:57 UTC 2026","passed","Sat May 09 06:14:57 UTC 2026","com.githubactions.Demo","Surefire test","com.githubactions.Demo","testCase3"
+"Opens GitHub and validates that the page title contains GitHub.","2200","testCase2","Surefire suite","Sat May 09 06:14:54 UTC 2026","passed","Sat May 09 06:14:57 UTC 2026","com.githubactions.Demo","Surefire test","com.githubactions.Demo","testCase2"
