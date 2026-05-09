@@ -25,3 +25,23 @@ jobs:
 
       - name: Run tests
         run: mvn -B clean test
+
+      - name: Generate Allure report
+        if: always()
+        run: mvn -B allure:report
+
+      - name: Upload Allure raw results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: target/allure-results
+          if-no-files-found: warn
+
+      - name: Upload Allure HTML report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: target/site/allure-maven-plugin
+          if-no-files-found: warn

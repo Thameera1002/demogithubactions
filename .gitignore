@@ -1,0 +1,13 @@
+# Maven build output
+/target/
+
+# Allure CLI cache/downloads
+/.allure/
+
+# IDE files
+/.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
