@@ -89,7 +89,7 @@ public class Demo {
         String title = driver.getTitle();
         Allure.step("Capture page metadata");
         attachText("Current URL", driver.getCurrentUrl());
-        attachText("Page title", title);
+        attachText("Page title : ", title);
         attachScreenshot();
 
         Allure.step("Assert title contains expected value: " + expectedTitlePart, () ->
